@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jira Opener Options</title>
+    <style>
+        body {
+            font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+        }
+        input  {
+            height:30px;
+            width: 100%;
+        }
+        #btnSave {
+            height:38px;
+        }
+        #status {
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+<div>
+    <h1> Options </h1>
+    <h4>Jira Root Url</h4>
+    <input type="text" id="url" name="url" placeholder="Ex: http://abc.jira.com">
+
+    <h4>Project Key/Prefix</h4>
+    <input type="text" id="projectKey" name="url" placeholder="Ex: ABCD">
+
+    <p>
+        <button type="button" id="btnSave" class="btn btn-dark">Save</button>
+        <span id="status"></span>
+    </p>
+</div>
+<script src="options.js"></script>
+</body>
+</html>

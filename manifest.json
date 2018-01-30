@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Jira Issue Opener",
+  "description": "Opens the Jira issue just by entering the issue id.",
+  "version": "1.0.1",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "jira.html",
+    "default_title": "Jira Issue Opener"
+  },
+  "options_ui": {
+    "page": "options.html",
+    "chrome_style": true
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
