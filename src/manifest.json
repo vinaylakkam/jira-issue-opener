@@ -3,12 +3,17 @@
 
   "name": "Jira Issue Opener",
   "description": "Opens the Jira issue just by entering the issue id.",
-  "version": "1.0.1",
+  "version": "1.0.4",
 
   "browser_action": {
     "default_icon": "icon.png",
     "default_popup": "jira.html",
     "default_title": "Jira Issue Opener"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
   },
   "options_ui": {
     "page": "options.html",
